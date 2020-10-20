@@ -1,4 +1,4 @@
-package com.example.memoriesproject
+package com.example.memoriesproject.database
 
 import android.content.Context
 import androidx.room.Database
@@ -8,10 +8,10 @@ import androidx.room.RoomDatabase
 @Database(entities = arrayOf(MemoryEntity::class), version = 1, exportSchema = false)
 abstract class MemoryDatabase:RoomDatabase() {
 
-    abstract fun memoryDao():MemoryDAO
+    abstract fun memoryDao(): MemoryDAO
 
     companion object{
-        var instance:MemoryDatabase?= null
+        var instance: MemoryDatabase?= null
 
 
         // singleton object to return same object to all over the application

@@ -1,4 +1,4 @@
-package com.example.memoriesproject
+package com.example.memoriesproject.database
 
 import android.icu.text.Transliterator
 import android.location.Location
