@@ -1,4 +1,4 @@
-package com.example.memoriesproject
+package com.example.memoriesproject.database
 
 import androidx.room.*
 
